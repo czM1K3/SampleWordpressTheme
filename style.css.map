@@ -1,1 +1,13 @@
-{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAEA;EACE;EACA","file":"style.css"}
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,EAAE,IAAI,CAAC;EACT,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACV",
+    "sources": [
+        "style.scss",
+        "style/_variables.scss",
+        "style/_body.scss",
+        "style/_header.scss",
+        "style/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
