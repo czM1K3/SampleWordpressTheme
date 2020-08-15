@@ -30,7 +30,7 @@ register_nav_menus(
 
 function themename_custom_logo_setup() {
     $defaults = array(
-        'height'      => 200,
+        'height'      => 400,
         'width'       => 400,
         'flex-height' => true,
         'flex-width'  => true,

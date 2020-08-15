@@ -1,3 +1,67 @@
+div.main {
+  font-family: OpenSans, sans-serif;
+}
+
+header {
+  font-family: Roboto, sans-serif;
+}
+
+header .custom-logo {
+  height: 100px;
+  width: auto;
+  margin-left: 50vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+header .header_text h1, header .header_text h2 {
+  text-align: center;
+}
+
+header .menu {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .menu li {
+  list-style: none;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 2px;
+}
+
+header .menu li a {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+header .menu li:hover a {
+  color: grey;
+}
+
+div.blank-footer div.custom-footer {
+  font-family: Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("fonts/OpenSans.ttf");
+}
+
 html, body {
   padding: 0;
   margin: 0;

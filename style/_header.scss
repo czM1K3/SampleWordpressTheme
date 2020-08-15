@@ -1,3 +1,37 @@
 header{
+    font-family: $roboto;
 
+    .custom-logo{
+        height: 100px;
+        width: auto;
+        margin-left: 50vw;
+        transform: translateX(-50%);
+    }
+
+    .header_text{
+        h1,h2{
+            text-align: center;
+        }
+    }
+
+    .menu{        
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        li{
+            list-style: none;
+            width: max-content;
+            margin: 2px;
+            a{
+                border-radius: 5px;
+                background-color: $color1;
+                padding: 10px;
+                text-decoration: none;
+                color: $color2;
+            }
+            &:hover a{
+                color: $color3;
+            }
+        }
+    }
 }
