@@ -1,5 +1,17 @@
 div.blank-footer{
   div.custom-footer{
     font-family: $roboto;
+    color: $color1;
+
+    width: max-content;
+    margin: 0 auto;
+
+    a{
+      color: $color1;
+      text-decoration: none;
+      &:hover{
+        color: $color3;
+      }
+    }
   }
 }

@@ -1,6 +1,9 @@
 div.main {
   font-family: $opensans;
 
+  margin: 0 auto;
+  max-width: 960px;
+
   &.front-page {
 
   }

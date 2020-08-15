@@ -1,6 +1,8 @@
 header{
     font-family: $roboto;
 
+    margin-top: 10px;
+
     .custom-logo{
         height: 100px;
         width: auto;
@@ -14,7 +16,7 @@ header{
         }
     }
 
-    .menu{        
+    ul.menu{        
         padding: 0;
         display: flex;
         justify-content: center;
@@ -28,9 +30,9 @@ header{
                 padding: 10px;
                 text-decoration: none;
                 color: $color2;
-            }
-            &:hover a{
-                color: $color3;
+                &:hover{
+                    color: $color3;
+                }
             }
         }
     }

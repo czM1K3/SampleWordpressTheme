@@ -1,9 +1,12 @@
 div.main {
   font-family: OpenSans, sans-serif;
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 header {
   font-family: Roboto, sans-serif;
+  margin-top: 10px;
 }
 
 header .custom-logo {
@@ -18,7 +21,7 @@ header .header_text h1, header .header_text h2 {
   text-align: center;
 }
 
-header .menu {
+header ul.menu {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,7 +31,7 @@ header .menu {
           justify-content: center;
 }
 
-header .menu li {
+header ul.menu li {
   list-style: none;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -36,7 +39,7 @@ header .menu li {
   margin: 2px;
 }
 
-header .menu li a {
+header ul.menu li a {
   border-radius: 5px;
   background-color: black;
   padding: 10px;
@@ -44,12 +47,26 @@ header .menu li a {
   color: white;
 }
 
-header .menu li:hover a {
+header ul.menu li a:hover {
   color: grey;
 }
 
 div.blank-footer div.custom-footer {
   font-family: Roboto, sans-serif;
+  color: black;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+
+div.blank-footer div.custom-footer a {
+  color: black;
+  text-decoration: none;
+}
+
+div.blank-footer div.custom-footer a:hover {
+  color: grey;
 }
 
 @font-face {
